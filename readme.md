@@ -2,7 +2,9 @@
 
 > This ML model would come in hand in detecting human faces and non-human objects.
 
-### pip
+## Development
+
+### Dependencies
 
 ```
 tensorflow-estimator==2.12.0
@@ -26,3 +28,16 @@ flask --app saulius run
 ```
 flask --app debug --debug run
 ```
+
+
+## Usage
+
+Endpoint for detecting:
+
+```
+URL: 127.0.0.1:5000/is_human
+Method: POST
+Body: image="base64stringhere"
+```
+
+In HTTPie, we can write this as: `http POST "127.0.0.1:5000/is_human" image="base64stringhere" `
