@@ -1,4 +1,4 @@
-# Arvigo ML Model
+# Arvigo Human Face Detection ML Model
 
 > This ML model would come in hand in detecting human faces and non-human objects.
 
@@ -26,7 +26,7 @@ flask --app saulius run
 ### How to run with live reload
 
 ```
-flask --app debug --debug run
+flask --app saulius --debug run
 ```
 
 
